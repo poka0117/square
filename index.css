@@ -1,0 +1,31 @@
+.plan_wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+.plan_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.plan1{
+    width: 450px;
+    height: 450px;
+    border: solid 3px red;
+}
+
+.plan2{
+    width: 450px;
+    height: 450px;
+    border: solid 3px blue;
+}
+
+@media screen and (max-width:999px){
+    .plan_wrapper {
+        width: 100%;
+    }
+    .plan1,.plan2 {
+        width: 45vw;
+        height: 45vw;
+    }
+}
